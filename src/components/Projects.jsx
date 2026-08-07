@@ -12,20 +12,20 @@ const projects = [
     image: '/Speech-to-Text AI Assistant.png',
   },
   {
+    title: 'Parking Booking System',
+    description: 'MERN application allowing users to register, log in, reserve parking slots, and manage bookings using JWT authentication and MongoDB.',
+    tech: ['React', 'Node', 'Express', 'MongoDB', 'JWT'],
+    github: 'https://github.com/Shreyas142004/Smart-Parking-Portal.git',
+    live: 'https://smart-parking-portal.vercel.app/',
+    image: '/Parking Booking System.png',
+  },
+  {
     title: 'Smart CRM System',
     description: 'Role-based CRM platform with Admin, Sales, and Technical dashboards. Features lead management, task assignment, email notifications, authentication, analytics, and workflow tracking.',
     tech: ['React', 'Node', 'MongoDB', 'Express', 'JWT'],
     github: 'https://github.com/Shreyas142004/Smart-CRM.git',
     live: '#',
     image: '/Smart CRM.png',
-  },
-  {
-    title: 'Parking Booking System',
-    description: 'MERN application allowing users to register, log in, reserve parking slots, and manage bookings using JWT authentication and MongoDB.',
-    tech: ['React', 'Node', 'Express', 'MongoDB', 'JWT'],
-    github: 'https://github.com/Shreyas142004/Smart-Parking-Portal.git',
-    live: '#',
-    image: '/Parking Booking System.png',
   },
   {
     title: 'Smart College Utility Portal',
