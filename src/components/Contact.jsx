@@ -13,8 +13,11 @@ const Contact = () => {
 
     const formData = new FormData(event.target);
 
-    // Replace this with your Web3Forms Access Key
-    formData.append("access_key", "a91961f3-90cc-42a9-9a6c-afb8a03efd97");
+    // Web3Forms Access Key from environment variables
+    const accessKey = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
+    if (accessKey) {
+      formData.append("access_key", accessKey);
+    }
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
