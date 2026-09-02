@@ -3,11 +3,11 @@ import { motion } from 'framer-motion';
 
 const certificates = [
   {
-    title: 'Introduction to Generative AI Studio',
-    issuer: 'Google Cloud',
+    title: 'Deloitte',
+    issuer: 'Deloitte',
     year: '2026',
-    link: '/Generative AI Studio.pdf',
-    image: '/Thumbnail/Generative AI Studio.png',
+    link: '/Deloitte.pdf',
+    image: '/Thumbnail/Deloitte.png',
   },
   {
     title: 'Google Bootcamp H2S',
